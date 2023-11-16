@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/loginScreen">
+
+    <fragment
+        android:id="@+id/listScreen"
+        android:name="com.example.tpfinaldap.viewmodels.PokemonList"
+        android:label="fragment_pokemon_list"
+        tools:layout="@layout/fragment_pokemon_list" >
+        <action
+            android:id="@+id/action_list_screen_to_add_pokemon"
+            app:destination="@id/addPokemon" />
+        <action
+            android:id="@+id/action_list_screen_to_edit_pokemon"
+            app:destination="@id/editPokemon" />
+        <action
+            android:id="@+id/action_list_screen_to_pokemon_description"
+            app:destination="@id/pokemonDescription" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginScreen"
+        android:name="com.example.tpfinaldap.viewmodels.LogIn"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_login_screen_to_register_screen"
+            app:destination="@id/registerScreen" />
+        <action
+            android:id="@+id/action_login_screen_to_list_screen"
+            app:destination="@id/listScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerScreen"
+        android:name="com.example.tpfinaldap.viewmodels.Register"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_register_screen_to_list_screen"
+            app:destination="@id/listScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/addPokemon"
+        android:name="com.example.tpfinaldap.viewmodels.AddPokemon"
+        android:label="fragment_add_pokemon"
+        tools:layout="@layout/fragment_add_pokemon" >
+        <action
+            android:id="@+id/action_add_pokemon_to_list_screen"
+            app:destination="@id/listScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/editPokemon"
+        android:name="com.example.tpfinaldap.viewmodels.EditData"
+        android:label="fragment_edit_pokemon"
+        tools:layout="@layout/fragment_edit_data" >
+        <action
+            android:id="@+id/action_edit_pokemon_to_list_screen"
+            app:destination="@id/listScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/pokemonDescription"
+        android:name="com.example.tpfinaldap.viewmodels.PokemonDescriptions"
+        android:label="fragment_data_super_heroes"
+        tools:layout="@layout/fragment_pokemon_description" />
+</navigation>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TP Final DAP</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pokemon_name">Pokemon Name</string>
+    <string name="pokedex_number">Pokedex Number</string>
+    <string name="subir">Subir</string>
+    <string name="pokemon_type_1">Pokemon Type 1</string>
+    <string name="pokemon_type_2">Pokemon Type 2</string>
+    <string name="poke_name">Pokemon Name</string>
+    <string name="poke_number">Pokedex Number</string>
+    <string name="poke_type_1">Pokemon Type 1</string>
+    <string name="poke_type_2">Pokemon Type 2</string>
+    <string name="upload">Subir</string>
+    <string name="edit">Edit</string>
+    <string name="plus">+</string>
+</resources>

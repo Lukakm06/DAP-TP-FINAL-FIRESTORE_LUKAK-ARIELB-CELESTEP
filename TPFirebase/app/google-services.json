@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "267417421201",
+    "project_id": "dap---firebase-183e5",
+    "storage_bucket": "dap---firebase-183e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267417421201:android:83b8438f36aeb992078630",
+        "android_client_info": {
+          "package_name": "com.example.tpfinaldap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMpcRLW6ke45wbVEr54LBqFi_fUts9sIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267417421201:android:2c8ad03234502e39078630",
+        "android_client_info": {
+          "package_name": "com.example.trabajoprcticodaplogin_recyclerview"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMpcRLW6ke45wbVEr54LBqFi_fUts9sIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
